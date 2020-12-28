@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>南在南方</title>
+<link rel="shortcut icon" href="https://sunbosong.top/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://sunbosong.top/media/css/tailwind.css">
+<link rel="stylesheet" href="https://sunbosong.top/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="南在南方 - Atom Feed" href="https://sunbosong.top/atom.xml">
+
+    
+
+  <meta name="description" content="这里是我的个人站点，我在这里记录关于产品、设计、数码相关的内容，欢迎关注 👋🏻" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://sunbosong.top/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
+        <i class="ri-hashtag"></i>
+        教程
+      </h1>
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://sunbosong.top/post/disqus-blogyi-ge-zui-hao-yong-de-bo-ke-ping-lun-ping-tai/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Disqus Blog，一个最好用的博客评论平台
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-12-25</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        我们常常在浏览一些博客文章时，对文章内容有着自己的看法想及时反馈给作者时，可以在文章底部看到类似这样的评论留言功能。
+
+基本上很多这种留言都是使用 Disqus 去创建的，由于我的博客是使用 Gridea 配合搭建的，本身它就可以配置 Di...
+      </div>
+      <a href="https://sunbosong.top/post/disqus-blogyi-ge-zui-hao-yong-de-bo-ke-ping-lun-ping-tai/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://cdn.sspai.com/2020/12/25/3122c52309255a115249cb8d99e988ed.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Disqus Blog，一个最好用的博客评论平台">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://sunbosong.top/post/bu-dong-ji-zhu-zen-me-ban-gridea-ke-yi-bang-ni-da-jian-zi-ji-de-ge-ren-bo-ke/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          不懂技术怎么办？Gridea 可以帮你搭建自己的个人博客
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-12-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        📝  为什么要写博客
+第一次接触博客还是在高中的时候，偶尔在新浪博客或者空间日志上去发一些自己写的文章，记录一些自己认为有价值可以给其他人分享且有用的内容。
+工作之后，经常也会遇到一些问题，在不懂的时候也会在互联网上用搜索引擎去查询问题，...
+      </div>
+      <a href="https://sunbosong.top/post/bu-dong-ji-zhu-zen-me-ban-gridea-ke-yi-bang-ni-da-jian-zi-ji-de-ge-ren-bo-ke/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://cdn.sspai.com/2020/12/20/17411ab46327a7d27f4a7d5eabbbc9a7.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="不懂技术怎么办？Gridea 可以帮你搭建自己的个人博客">
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a class="text-gray-800 font-normal" href="https://gridea.dev/" target="_blank">Gridea</a> · Made with ❤️ by <a class="text-gray-800 font-normal" href="https://sunbosong.top" target="_blank">南在南方</a>
+    </div>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://sunbosong.top/media/scripts/main.js"></script>
+</body>
+</html>

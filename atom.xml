@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sunbosong.top</id>
+    <title>南在南方</title>
+    <updated>2020-12-28T10:13:15.942Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sunbosong.top"/>
+    <link rel="self" href="https://sunbosong.top/atom.xml"/>
+    <subtitle>这里是我的个人站点，我在这里记录关于产品、设计、数码相关的内容，欢迎关注 👋🏻</subtitle>
+    <logo>https://sunbosong.top/images/avatar.png</logo>
+    <icon>https://sunbosong.top/favicon.ico</icon>
+    <rights>All rights reserved 2020, 南在南方</rights>
+    <entry>
+        <title type="html"><![CDATA[Disqus Blog，一个最好用的博客评论平台]]></title>
+        <id>https://sunbosong.top/post/disqus-blogyi-ge-zui-hao-yong-de-bo-ke-ping-lun-ping-tai/</id>
+        <link href="https://sunbosong.top/post/disqus-blogyi-ge-zui-hao-yong-de-bo-ke-ping-lun-ping-tai/">
+        </link>
+        <updated>2020-12-25T05:28:52.000Z</updated>
+        <content type="html"><![CDATA[<p>我们常常在浏览一些博客文章时，对文章内容有着自己的看法想及时反馈给作者时，可以在文章底部看到类似这样的评论留言功能。</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.sspai.com/2020/12/25/b58881c0039f94ad26162a407723f701.png" alt="" loading="lazy"></figure>
+<p>基本上很多这种留言都是使用 Disqus 去创建的，由于我的博客是使用 Gridea 配合搭建的，本身它就可以配置 Disqus 账号远程连接；用了一段时间后感受到了 Disqus 的确是一个比较友好博客评论平台。</p>
+<h2 id="注册及配置-disqus">注册及配置 Disqus</h2>
+<p>前往  <a href="https://blog.disqus.com/">Disqus 官网</a>  找到 Sign up 填写注册信息</p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.sspai.com/2020/12/25/291093351373589ca20e4abb9e90a475.png" alt="" loading="lazy"></figure>
+<p>完成注册后，进入首页点击 GET STARTED 进入下一步</p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.sspai.com/2020/12/25/47b378ae60eb3f426d81dc4557a0b89d.png" alt="" loading="lazy"></figure>
+<p>选择 I want to install Disqus on my site</p>
+<figure data-type="image" tabindex="4"><img src="https://cdn.sspai.com/2020/12/25/4cc5bf99e956c325e6a0f98ebfd1f368.png" alt="" loading="lazy"></figure>
+<p>填写自己的网站信息，输入域名即可。</p>
+<figure data-type="image" tabindex="5"><img src="https://cdn.sspai.com/2020/12/25/3b68cafd48c384e9fe5ba43e89b486bf.png" alt="" loading="lazy"></figure>
+<p>选择订阅计划（可以免费体验 30 天）</p>
+<figure data-type="image" tabindex="6"><img src="https://cdn.sspai.com/2020/12/25/af4282857422a2743bc59f86927f0d68.png" alt="" loading="lazy"></figure>
+<p>由于我的博客是使用 Gridea 配合搭建的，这里可以先不用去选择。</p>
+<figure data-type="image" tabindex="7"><img src="https://cdn.sspai.com/2020/12/25/5cb43a67e0f7b043e781d6b640e5128a.png" alt="" loading="lazy"></figure>
+<p>前往  <a href="https://disqus.com/profile/login/?next=/api/applications//">Disqus API Resources</a>  新建一个 Application</p>
+<figure data-type="image" tabindex="8"><img src="https://cdn.sspai.com/2020/12/25/095ab78b85fdbf6fee561a4f976d3e6b.png" alt="" loading="lazy"></figure>
+<p>将基础信息完善后，点击 Redister my application 确认</p>
+<figure data-type="image" tabindex="9"><img src="https://cdn.sspai.com/2020/12/25/6125014d00ac6a72af38e798c490ff8f.png" alt="" loading="lazy"></figure>
+<p>基础信息完善后，进入API 信息页面，在「 Details 」中获取你的 API Keys 与 API Secrets 并复制到剪贴板和其他文本上</p>
+<figure data-type="image" tabindex="10"><img src="https://cdn.sspai.com/2020/12/25/8b73a6fb00659d3c7762845ad5340aa8.png" alt="" loading="lazy"></figure>
+<p>接着切换到「 Settings 」中 Domains ，设置域名白名单防止其他用户滥用你的 API ，还能防止某些安全隐患。</p>
+<figure data-type="image" tabindex="11"><img src="https://cdn.sspai.com/2020/12/25/1bbddeff1a23ed29b92adb1d0d7d8c10.png" alt="" loading="lazy"></figure>
+<p>信息全部完善后，直接打开已安装的 Gridea 应用找到「 远程 」中 评论配置。</p>
+<figure data-type="image" tabindex="12"><img src="https://cdn.sspai.com/2020/12/25/35b2b31f947860ad064df731997bec90.png" alt="" loading="lazy"></figure>
+<p>输入 Disqus 创建账号时填写的 Shortname ，同时复制 API 信息页面中的 API Keys 与 API Secrets 对应 Gridea 中的 apikey 和 api ，确认后保存即可。</p>
+<p>点击应用左下角的「 同步 」，等待同步完成后访问自己的博客文章就可以看到文章最底部的 Disqus 评论功能。</p>
+<figure data-type="image" tabindex="13"><img src="https://cdn.sspai.com/2020/12/25/1b97c194ccbcb0d6a47736e4f15202fc.png" alt="" loading="lazy"></figure>
+<h2 id="disqus-评论数据">Disqus 评论数据</h2>
+<p>前往 Disqus 中的 Analytics 数据中心可以查看用户在访问博客文章时的留言评论信息，可帮助博主更好地了解受众与互动内容。</p>
+<figure data-type="image" tabindex="14"><img src="https://cdn.sspai.com/2020/12/25/67e230619f530e159c5aa84f8eb00618.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不懂技术怎么办？Gridea 可以帮你搭建自己的个人博客]]></title>
+        <id>https://sunbosong.top/post/bu-dong-ji-zhu-zen-me-ban-gridea-ke-yi-bang-ni-da-jian-zi-ji-de-ge-ren-bo-ke/</id>
+        <link href="https://sunbosong.top/post/bu-dong-ji-zhu-zen-me-ban-gridea-ke-yi-bang-ni-da-jian-zi-ji-de-ge-ren-bo-ke/">
+        </link>
+        <updated>2020-12-18T06:46:59.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="为什么要写博客">📝  为什么要写博客</h2>
+<p>第一次接触博客还是在高中的时候，偶尔在新浪博客或者空间日志上去发一些自己写的文章，记录一些自己认为有价值可以给其他人分享且有用的内容。</p>
+<p>工作之后，经常也会遇到一些问题，在不懂的时候也会在互联网上用搜索引擎去查询问题，经常会在一些小众的个人博客中找到解决办法，平时自己也学习着怎么将自己遇到的问题解决成功后的过程记录下去分享在自己的博客，也许可以帮到那些曾经和你一样遇到同样问题的小伙伴们。</p>
+<h2 id="选择博客的平台">💻  选择博客的平台</h2>
+<p>很早的时候就想过怎么用自己的域名去访问的个人网站或者博客，网上也找了一堆其他人写的”如何搭建自己的个人博客”相关的教程内容去学习搭建，发现基本上都是一些用 Hexo + GitHub 去搭建的，有些还是要掌握一些技术相关的内容，折腾了很久但最终还是没有坚持下来于是就放弃了…</p>
+<p>最近在闲时摸鱼 🐟 的时候，发现了一个叫 Gridea 的静态博客客户端，支持 Markdown 写作，在 GitHub Pages 的基础上去帮助您更轻松地构建和管理博客或任何静态站点。</p>
+<p>对于个人博客的搭建，常用的像动态的 Typecho 、WordPress 等，还有静态的站点，如 Hugo、Jekyll 等。这些都有着各自的优缺点，不过对于小白用户来说， Gridea 真的是一款很友好的博客工具。</p>
+<h2 id="如何通过-github-搭建自己的静态网站以mac为主">📕 如何通过 GitHub 搭建自己的静态网站（以Mac为主）</h2>
+<h3 id="安装git">安装Git</h3>
+<p>要想远程部署在Github，必须要安装 Git，我个人的环境是 macOS，所以安装很简单，打开macOS自带的终端，输入下面命令行即可。</p>
+<p><code>brew install git</code></p>
+<h3 id="注册及配置github访问可能较慢">注册及配置GitHub（访问可能较慢）</h3>
+<p>前往 <a href="https://github.com/">GitHub</a> 找到 Sign Up，填写 Join GitHub 表单信息</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.sspai.com/2020/12/20/fa37e6944a31a6a1708d277f128b57a4.png" alt="" loading="lazy"></figure>
+<p>注册完成后，进入首页，开始点击左侧 new 或者右上角 + 创建自己的新仓库。</p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.sspai.com/2020/12/20/cfa8c46bfe8f92e16fcdc9b14bbee836.png" alt="" loading="lazy"></figure>
+<p>填写仓库表单信息并进行配置内容（需要注意的是，仓库名必须为  <Username>.github.io，必须和这个一样，否则不会生成 GitHub Pages。）</p>
+<p>仓库类型要选择为公开 Public，其他内容都默认即可，最后选择 Create repository 创建仓库。</p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.sspai.com/2020/12/20/c2606c4acb8fdcca3292e79ef42b72bf.png" alt="" loading="lazy"></figure>
+<p>启用 GitHub Pages ，找到刚刚创建成功的仓库后，打开仓库的 Settings ，找到页面最下方的GitHub Pages 配置选项。</p>
+<p>Source 选择 master 即可；</p>
+<p>点击 Choose a theme  选择其中一个主题即可（因为后续我们使用 Gridea 设置主题，这边选择主题只是为了开启 GitHub Pages 可访问类型）；</p>
+<p>Custom Domain 填写自己的域名即可，默认不填为 GitHub 提供的二级域名；</p>
+<blockquote>
+<p>如果使用自己的域名去访问网站？<br>
+前往阿里云、腾讯云、Godaddy等服务商申请域名，域名申请成功后，前往GitHub 仓库的 Settings 中的 GitHub Pages 选项中添加自己的自定义域名。</p>
+</blockquote>
+<figure data-type="image" tabindex="4"><img src="https://cdn.sspai.com/2020/12/20/245ee11fab439406656f806744a053bd.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>前往域名提供商域名管理中心（以 Godaddy 域名服务商为例），找到 Godaddy 中自己购买域名的 DNS 管理，并在原先的记录下添加2条新的记录即可。</p>
+</blockquote>
+<figure data-type="image" tabindex="5"><img src="https://cdn.sspai.com/2020/12/20/d5fcc5a74a36199327364165c85e271c.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>图片中的IP地址是根据在终端中通过命令行而得到的，打开终端输入以下命令</p>
+</blockquote>
+<p><code>ping &lt;Username&gt;.github.io</code></p>
+<p>Enforce HTTPS 选中即可。</p>
+<figure data-type="image" tabindex="6"><img src="https://cdn.sspai.com/2020/12/20/463aebaeb0d25133368ecab0e230cb31.png" alt="" loading="lazy"></figure>
+<p>创建新 token<br>
+若要使用 Gridea 管理 GitHub Pages ，需要创建一个新的 token ，前往 GitHub token 去生成你的 token ，勾选上 repo 相关权限即可，其他选项默认即可。</p>
+<figure data-type="image" tabindex="7"><img src="https://cdn.sspai.com/2020/12/20/dcb8d70b7bf84e017a9876e70d39f960.png" alt="" loading="lazy"></figure>
+<p>请把新建的 token 复制一个地方保存起来，因为关闭这个网页后你就再也看不到它了。（目前无法找到创建过的token）</p>
+<figure data-type="image" tabindex="8"><img src="https://cdn.sspai.com/2020/12/20/e866151ad980f7ebca4e2709e1941710.png" alt="" loading="lazy"></figure>
+<h3 id="安装-gridea">安装 Gridea</h3>
+<p>前往 <a href="https://gridea.dev/">Gridea</a> 下载对应系统版本的安装包，安装即可，安装好基本是这样的页面：</p>
+<figure data-type="image" tabindex="9"><img src="https://cdn.sspai.com/2020/12/20/5b9750e700cc4f824d7ce1fb32810ad9.png" alt="" loading="lazy"></figure>
+<h3 id="配置-gridea">配置 Gridea</h3>
+<p>找到 Gridea 应用中的远程连接页面，做好基本设置并保存。这步设置好后就可以开始使用。你可以点击客户端左下角的预览按钮来查看本地渲染效果，或者点击同步进行博客最新内容的部署。</p>
+<figure data-type="image" tabindex="10"><img src="https://cdn.sspai.com/2020/12/20/f5c732e1724d96dff95318c7b0a389f4.png" alt="" loading="lazy"></figure>
+<h3 id="博客页面设置">博客页面设置</h3>
+<p>找到 Gridea 应用中的主题页面，在网页图标或者头像设置中上传对应的头像图片即可。</p>
+<ul>
+<li>FAVICON 网页图标</li>
+</ul>
+<figure data-type="image" tabindex="11"><img src="https://cdn.sspai.com/2020/12/20/2df4d57ed739bb451e34558a225f794a.png" alt="" loading="lazy"></figure>
+<ul>
+<li>页面头像设置</li>
+</ul>
+<figure data-type="image" tabindex="12"><img src="https://cdn.sspai.com/2020/12/20/1edb58f132d46dee341c4b69e5c504d1.png" alt="" loading="lazy"></figure>
+<p>找到 Gridea 应用中的菜单选项，可以新增、编辑、删除博客的菜单，完成后同步即可。</p>
+<ul>
+<li>网页菜单</li>
+</ul>
+<figure data-type="image" tabindex="13"><img src="https://cdn.sspai.com/2020/12/20/eb665df53c65758fe140f88ce1002f18.png" alt="" loading="lazy"></figure>
+<p>找到 Gridea 应用中的主题选项，可以选择内置的主题或者去付费或免费下载喜欢的主题 <a href="https://gridea.dev/themes/">Gridea Theme</a></p>
+<figure data-type="image" tabindex="14"><img src="https://cdn.sspai.com/2020/12/20/01ce7e3f6de0883256775b9bdc23df83.png" alt="" loading="lazy"></figure>
+<h3 id="创建第一篇博客文章">🧑🏻‍💻 创建第一篇博客文章</h3>
+<p>在文章管理界面点击新建文章。GitHub Pages 使用 Markdown 编写文章，同时 Gridea 的文章编辑器提供了一些基本样式，点击按钮既可以添加对应标记，方便初学者使用。</p>
+<figure data-type="image" tabindex="15"><img src="https://cdn.sspai.com/2020/12/20/57e1bba71d51341ecb876e18601d205e.png" alt="" loading="lazy"></figure>
+<p>编辑区的右侧可以设置 URL 、标签、创建时间、封面图和列表中隐藏。</p>
+<figure data-type="image" tabindex="16"><img src="https://cdn.sspai.com/2020/12/20/6d21b7d9dd1fe66614fb3146b0b94d41.png" alt="" loading="lazy"></figure>
+<ul>
+<li>标签：可以选择已有的标签，如果需要新标签请先回到主界面添加，再在文章编辑界面选择。</li>
+<li>创建时间：会自动生成，也可以修改。</li>
+<li>封面图：会显示在首页和其他文章列表（可设置隐藏）。</li>
+<li>列表中隐藏：可以用于暂未编辑好的文章，或者不希望它显示于各种列表中而只能通过链接访问，比如关于页面。</li>
+</ul>
+<p>所有的设置和内容更新要在服务器端生效都需要在保存后点击客户端左下角的同步。 为了保证不出问题，也可以同步前在本地进行预览。</p>
+<p>同步完成之后，访问自己的博客之后就可以看到刚刚创建的博客文章。</p>
+<figure data-type="image" tabindex="17"><img src="https://cdn.sspai.com/2020/12/21/3e6b252848280627a7f02e5debb37cfa.png" alt="" loading="lazy"></figure>
+<p>由于 GitHub Pages 在国内访问十分缓慢，目前建议通过图片压缩工具进而减小图片本身大小来提高网站的加载速度。</p>
+<p>后续再更新通过 CDN 加速或者通过七牛云存储去提高博客的访问速度 🙇🏻‍♂️</p>
+]]></content>
+    </entry>
+</feed>
