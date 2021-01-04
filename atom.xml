@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunbosong.top</id>
     <title>南在南方</title>
-    <updated>2020-12-28T10:13:31.938Z</updated>
+    <updated>2021-01-04T02:07:26.179Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunbosong.top"/>
     <link rel="self" href="https://sunbosong.top/atom.xml"/>
     <subtitle>这里是我的个人站点，我在这里记录关于产品、设计、数码相关的内容，欢迎关注 👋🏻</subtitle>
     <logo>https://sunbosong.top/images/avatar.png</logo>
     <icon>https://sunbosong.top/favicon.ico</icon>
-    <rights>All rights reserved 2020, 南在南方</rights>
+    <rights>All rights reserved 2021, 南在南方</rights>
     <entry>
         <title type="html"><![CDATA[Disqus Blog，一个最好用的博客评论平台]]></title>
         <id>https://sunbosong.top/post/disqus-blogyi-ge-zui-hao-yong-de-bo-ke-ping-lun-ping-tai/</id>
